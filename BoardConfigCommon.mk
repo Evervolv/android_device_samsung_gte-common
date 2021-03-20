@@ -17,13 +17,13 @@
 # Inherit from common
 include device/samsung/msm8916-common/BoardConfigCommon.mk
 
-PLATFORM_PATH := device/samsung/gte-common
+COMMON_PATH := device/samsung/gte-common
 
 # Audio
 USE_QCOM_MIXER_PATHS := 1
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(PLATFORM_PATH)/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_PATH)/bluetooth
 
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
